@@ -17,6 +17,7 @@ AddBtn.onclick = function click() {
 
 resetBtn.onclick = function click() {
     cars = [];
+    console.log(cars);
     console.log('resetBen clicked!')
 };
 
