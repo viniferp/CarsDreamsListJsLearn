@@ -11,8 +11,9 @@ const resetBtn = document.getElementById("reset-id");
 
 
 AddBtn.onclick = function click() {
-    createCarsList(brand, name, year);
-    console.log(cars);
+    createCarsList(brand.value, name.value, year.value);
+    
+    
 };
 
 resetBtn.onclick = function click() {
