@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>    
 </head>
-<body>
+<body id="body">
     <h1> Dreams Car List</h1>
     <h2> How many cars do you want to add: </h2> <input type="text" id="nCars">
     <h3> Insert car data below:</h3>
@@ -18,10 +18,11 @@
             <label for="lname">Name:</label>
             <input type="text" id="lname-id" name="lname"><br><br>
             <label for="lyear">Year:</label>
-            <input type="text" id="lyear-id" name="lyear"><br><br>
+            <input type="number" id="lyear-id" name="lyear"><br><br>
             <button id="addCar-id" type="button">Add Car</button> <button id="carsLists-id" type="button">Show List</button> <button id="reset-id" type="button">Reset list</button>
         </form>
     </div>
+    <!--
     <table id="divList-id">
         <tr>
             <th>Brand</th>
@@ -29,7 +30,7 @@
             <th>Year</th>
           </tr>
     </table>
-    
+    -->
     <script src='scripts.js'></script>
 </body>
 </html>
