@@ -69,7 +69,7 @@ addBtn.onclick = function click() {
         name.value = "";
         year.value = "";
     } else {
-        alert("Insert valid data!!!");
+        alert("Insert valid data!!");
     }
 };
 
